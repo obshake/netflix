@@ -49,7 +49,7 @@ GROUP BY
 ```
 **2. Find the Most Common Rating for Movies and TV Shows.**
 
-
+```sql
 WITH rating_table AS(
 	SELECT 
 		type,
@@ -76,7 +76,7 @@ FROM
 	ranked_table
 WHERE
 row_num = 1;
-
+```
 **3. Find the Top 5 Countries with the Most Content on Netflix.**
 ```sql
 SELECT 
